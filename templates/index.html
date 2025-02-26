@@ -82,7 +82,7 @@
                             <a href="#">
                                 <span class="singel-category text-center color-1">
                                     <span class="icon">
-                                        <img src="{% static 'images/all-icon/ctg-1.png' %}" alt="Icon">
+                                        <!-- <img src="{% static 'images/all-icon/ctg-1.png' %}" alt="Icon"> -->
                                     </span>
                                     <span class="cont">
                                         <span>Language</span>
@@ -94,7 +94,7 @@
                             <a href="#">
                                 <span class="singel-category text-center color-2">
                                     <span class="icon">
-                                        <img src="{% static 'images/all-icon/ctg-2.png' %}" alt="Icon">
+                                        <!-- <img src="{% static 'images/all-icon/ctg-2.png' %}" alt="Icon"> -->
                                     </span>
                                     <span class="cont">
                                         <span>Extracurricular Activity</span>
@@ -106,7 +106,7 @@
                             <a href="#">
                                 <span class="singel-category text-center color-3">
                                     <span class="icon">
-                                        <img src="{% static 'images/all-icon/ctg-3.png' %}" alt="Icon">
+                                        <!-- <img src="{% static 'images/all-icon/ctg-3.png' %}" alt="Icon"> -->
                                     </span>
                                     <span class="cont">
                                         <span>Vocational Clubs</span>
@@ -161,6 +161,8 @@
 
 <!--====== ABOUT PART START ======-->
 
+
+
 <section id="about-part" class="pt-65">
     <div class="container">
         <div class="row">
@@ -176,48 +178,48 @@
                 </div>
             </div> <!-- about cont -->
             <div class="col-lg-6 offset-lg-1">
-                {% comment %} <div class="about-event mt-50">
+                <div class="about-event mt-50">
                     <div class="event-title">
-                        <h3>Upcoming events</h3> {% endcomment %}
-
-
-                    {% comment %} </div> <!-- event title -->
+                        <h3>Hibiscus Royal Academy</h3>
+                    </div> <!-- event title -->
                     <ul>
                         <li>
                             <div class="singel-event">
-                                <span><i class="fa fa-calendar"></i> 2 December 2018</span>
-                                <a href="events-singel.html"><h4>Campus clean workshop</h4></a>
-                                <span><i class="fa fa-clock-o"></i> 10:00 Am - 3:00 Pm</span>
-                                <span><i class="fa fa-map-marker"></i> Rc Auditorim</span>
+                                <!-- <span><i class="fa fa-calendar"></i> 2 December 2018</span> -->
+                                <a href="events-singel.html"><h4> QUICK ADMISSION</h4></a><span><i class="fa fa-clock-o"></i>Online entrance examination is written after registration to enable quick admission of students.  </span>
+                                <!-- <span><i class="fa fa-map-marker"></i> Rc Auditorim</span> -->
+                               
                             </div>
                         </li>
                         <li>
                             <div class="singel-event">
-                                <span><i class="fa fa-calendar"></i> 2 December 2018</span>
-                                <a href="events-singel.html"><h4>Tech Summit</h4></a>
-                                <span><i class="fa fa-clock-o"></i> 10:00 Am - 3:00 Pm</span>
-                                <span><i class="fa fa-map-marker"></i> Rc Auditorim</span>
+                                <!-- <span><i class="fa fa-calendar"></i> 2 December 2018</span> -->
+                                <a href="events-singel.html"><h4>CURRICULUM
+                                    </h4></a>
+                                <span><i class="fa fa-clock-o"></i>We offer Nigerian and British Curricula</span>
+                                <!-- <span><i class="fa fa-map-marker"></i> Rc Auditorim</span> -->
                             </div>
                         </li>
                         <li>
                             <div class="singel-event">
-                                <span><i class="fa fa-calendar"></i> 2 December 2018</span>
-                                <a href="events-singel.html"><h4>Enviroement conference</h4></a>
-                                <span><i class="fa fa-clock-o"></i> 10:00 Am - 3:00 Pm</span>
-                                <span><i class="fa fa-map-marker"></i> Rc Auditorim</span>
+                                <!-- <span><i class="fa fa-calendar"></i> 2 December 2018</span> -->
+                                <a href="events-singel.html"><h4>EFFICIENT LEARNING
+                                    </h4></a>
+                                <span><i class="fa fa-clock-o"></i> Our learners are taught by skilled and qualified teachers making use of our curriculum, with this, the future is guaranteed.</span>
+                                <!-- <span><i class="fa fa-map-marker"></i> Rc Auditorim</span> -->
                             </div>
                         </li>
                     </ul> 
-                </div> <!-- about event --> {% endcomment %}
-
-                
+                </div> <!-- about event -->
             </div>
         </div> <!-- row -->
     </div> <!-- container -->
     <div class="about-bg">
         <img src="{% static 'images/about3.png' %}" alt="About">
+
     </div>
 </section>
+
 
 <!--====== ABOUT PART ENDS ======-->
 
@@ -227,20 +229,20 @@
     <div class="container"  >
         <div class="apply">
             <div class="row no-gutters" >
-                <div class="col-lg-6">
+                <div class="col-lg-15">
                     <div class="apply-cont apply-color-1"  style="background-color: #28a745;">
                         <h3>Apply for fall 2025</h3>
                         <p>Gravida nibh vel velit auctor aliquetn sollicitudirem sem quibibendum auci elit cons equat ipsutis sem nibh id elituis sed odio sit amet nibh vulputate cursus equat ipsutis.</p>
                         <a href="{% url 'contact' %}" class="main-btn">Apply Now</a>
                     </div> <!-- apply cont -->
                 </div>
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                     <div class="apply-cont apply-color-2" style="background-color: rgb(106, 121, 113);">
                         <h3>Apply for scholarship</h3>
                         <p>Gravida nibh vel velit auctor aliquetn sollicitudirem sem quibibendum auci elit cons equat ipsutis sem nibh id elituis sed odio sit amet nibh vulputate cursus equat ipsutis.</p>
                         <a href="{% url 'contact' %}" class="main-btn">Apply Now</a>
-                    </div> <!-- apply cont -->
-                </div> 
+                    </div> apply cont
+                </div>  -->
             </div>
         </div> <!-- row -->
     </div> <!-- container -->
@@ -263,39 +265,40 @@
             <div class="col-lg-5 offset-lg-1 order-first order-lg-last" style="background-color: rgb(106, 121, 113);" >
                 <div class="feature pt-50" >
                     <div class="feature-title">
-                        <h3>Our Facilities</h3>
+                        <h3>WHAT'S HAPPENING?</h3>
                     </div>
                     <ul>
                         <li>
                             <div class="singel-feature">
                                 <div class="icon">
-                                    <img src="{% static 'images/all-icon/f-1.png' %}" alt="icon">
+                                    <!-- <img src="{% static 'images/all-icon/f-1.png' %}" alt="icon"> -->
                                 </div>
                                 <div class="cont">
-                                    <h4>Global Certificate</h4>
-                                    <p>Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
+                                    <h4>NEWSLETTER – 
+                                         </h4>
+                                    <p>Dear Esteemed Parents, WELCOME NEWSLETTERWelcome back to Term 2. We hope you have had an enjoyable holiday, we are so confident that each learner.</p>
                                 </div>
                             </div> <!-- singel feature -->
                         </li>
                         <li>
                             <div class="singel-feature">
                                 <div class="icon">
-                                    <img src="{% static 'images/all-icon/f-2.png' %}" alt="icon">
+                                    <!-- <img src="{% static 'images/all-icon/f-2.png' %}" alt="icon"> -->
                                 </div>
                                 <div class="cont">
-                                    <h4>Alumni Support</h4>
-                                    <p>Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
+                                    <h4>MID-TERM NEWSLETTER 2025/2026</h4>
+                                    <p>Dear Esteemed Parents, Finally, we have come to the end of the first half of Term 1, 2025/2026 session. On behalf of the Management, </p>
                                 </div>
                             </div> <!-- singel feature -->
                         </li>
                         <li>
                             <div class="singel-feature">
                                 <div class="icon">
-                                    <img src="{% static 'images/all-icon/f-3.png' %}" alt="icon">
+                                    <!-- <img src="{% static 'images/all-icon/f-3.png' %}" alt="icon"> -->
                                 </div>
                                 <div class="cont">
-                                    <h4>Books & Library</h4>
-                                    <p>Gravida nibh vel velit auctor aliquetn auci elit cons solliazcitudirem sem quibibendum sem nibhutis.</p>
+                                    <h4>How To Apply</h4>
+                                    <p> Click to get guidelines or steps on how to register your wards on  Hibiscus Royal Academy Abuja.</p>
                                 </div>
                             </div> <!-- singel feature -->
                         </li>
@@ -316,7 +319,7 @@
         <div class="row">
             <div class="col-lg-5">
                 <div class="section-title mt-50">
-                    <h5>Featured Teachers</h5>
+                    <h5> Teachers</h5>
                     <h2>Meet Our teachers</h2>
                 </div> <!-- section title -->
                 <div class="teachers-cont">
@@ -380,6 +383,7 @@
 
 <!--====== TEACHERS PART ENDS ======-->
 
+<!-- <video class="pt-70 pb-120" width="1020" height="240" src="{% static 'images/video_home.mp4' %}" controls ></video> -->
 
 
 <!--====== TEASTIMONIAL PART START ======-->
@@ -545,7 +549,7 @@
 
 <!--====== PATNAR LOGO PART START ======-->
 
-<div id="patnar-logo" class="pt-40 pb-80 gray-bg">
+<!-- <div id="patnar-logo" class="pt-40 pb-80 gray-bg">
     <div class="container">
         <div class="row patnar-slied">
             <div class="col-lg-12">
@@ -578,11 +582,22 @@
                     <img src="{% static 'images/patnar-logo/p-3.png' %}" alt="Logo">
                 </div>
             </div>
-        </div> <!-- row -->
-    </div> <!-- container -->
-</div> 
+        </div> row
+    </div> container
+</div>  -->
 
 <!--====== PATNAR LOGO PART ENDS ======-->
+
+<!-- <div class="row align-items-center">
+    <div class="col-lg-6 order-last order-lg-first">
+        <div class="video text-lg-left text-center pt-50">
+            <a class="Video-popup" href="{% static 'images/video_home.mp4' %}"><i class="fa fa-play"></i></a>
+        </div> 
+    </div>
+    <div class="col-lg-5 offset-lg-1 order-first order-lg-last" style="background-color: rgb(106, 121, 113);" >
+       
+    </div>
+</div> -->
 
 
 {% endblock contect %}
